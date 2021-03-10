@@ -1,0 +1,154 @@
+/*
+     Author: Sumon Sheikh;
+     Theme: Restaurant Food Order;
+     Version: 1.0;
+ */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+.img-responsive{
+    width: 100%;
+}
+a{
+    color: #e84393;
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+}
+h2{
+    color: coral;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+/* Navbar section */
+.logo{
+    width: 10%;
+    float: left;
+}
+.text-right{
+    text-align: right;
+    list-style-type: none;
+    line-height: 50px;
+}
+.text-right ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+/* Food Search*/
+.food-search{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #e84393;
+    color: white;
+    cursor: pointer;
+}
+btn-primary:hover{
+    background-color: purple;
+}
+
+/* Categories */
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+.float-container{
+    position: relative;
+    border-radius: 10px;
+}
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Food Menu */
+.food-menu{
+    background-color: #ecf0f1;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: midnightblue;
+}
+/* Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* Mobile */
+@media only screen and (max-width: 768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+    .text-right ul{
+        text-align: center;
+    }
+}
